@@ -1,56 +1,61 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 @import 'animate.css';
 
-.navigation
-{
+.navigation {
     height: 60px;
     /* background-color: black; */
-    
+
 }
-.logo{
+
+.logo {
     height: 80px;
     width: 200px;
 }
-.links
-{
+
+.links {
     height: 80px;
     width: 750px;
 }
 
-.links>a:hover{
-  transform: scale(1.2);
-  text-decoration: underline;
+.links>a:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
 }
-.icon-bar
-{
+
+.icon-bar {
     font-size: 25px;
 }
-.i-text{
+
+.i-text {
     display: none;
 }
 
-@media (max-width: 790px){
-    .i-text{
+@media (max-width: 790px) {
+    .i-text {
         display: block;
     }
-    .links > a{
+
+    .links>a {
         display: none;
     }
-    .button-text
-    {
+
+    .button-text {
         display: none;
     }
-    .div-test{
+
+    .div-test {
         height: 250px;
         width: 170px;
     }
 }
-@media (max-width: 553px){
-    .div-test{
+
+@media (max-width: 553px) {
+    .div-test {
         height: 250px;
         width: 170px;
     }
@@ -58,137 +63,183 @@
 
 
 
-.icon-bar{
+.icon-bar {
     position: absolute;
     right: 15px;
     top: 20px;
 }
 
-.parent-section
-{
+.parent-section {
     background-image: url(https://portotheme.com/html/porto_ecommerce/landing/img/header_bg.jpg);
     height: 500px;
     width: 100%;
 }
 
-.child-section1
-{
+.child-section1 {
     height: 300px;
     width: 450px;
-    
-}
-.child-section2 
-{
-    height: 400px;
-    width: 550px;
-    
+
 }
 
-.bold
-{
+.child-section2 {
+    height: 400px;
+    width: 550px;
+
+}
+
+.bold {
     font-weight: 600 !important;
 }
-.h1{
+
+.h1 {
     color: white !important;
 }
-.text-color-white
-{
+
+.text-color-white {
     color: white !important;
 }
-.margin
-{
+
+.margin {
     margin-right: 10px;
 }
-.div1
-{
+
+.div1 {
     width: 300px;
     height: 100px;
     background-color: blue;
 }
 
-  .slide-right {
+.slide-right {
     animation: 3s slide-right;
-  }
-  @keyframes slide-right {
+    position: absolute;
+    top: 50%;
+}
+
+@keyframes slide-right {
     from {
-      margin-left: -100%;
+        margin-left: -100%;
     }
+
     to {
-      margin-left: 0%;
+        margin-left: 0%;
     }
-  }
-  .fade-in {
+}
+
+.fade-in {
     animation: fadeIn ease 3s;
-  }
-  @keyframes fadeIn{
+}
+
+@keyframes fadeIn {
     0% {
-      opacity:0;
+        opacity: 0;
     }
+
     100% {
-      opacity:1;
+        opacity: 1;
     }
-  }
-  .div-test
-  {
+}
+
+.div-test {
     height: 150px;
     width: 500px;
-  }
-  .div-star
-  {
+}
+
+.div-star {
     position: relative;
     top: -8px;
-  }
+}
 
-  .fa-star
-  {
+.fa-star {
     font-size: 25px;
     color: gold;
-  }
+}
 
-  .div-hash
-  {
+.div-hash {
     position: relative;
     top: 5px;
     bottom: 20px;
-  }
-/* complite */
-.color
-{
-  height: 300px;
-  flex-direction: column;
-  row-gap: 5%;
 }
 
-.h1InContainer
-{
-  width: 550px;
+/* complite */
+.color {
+    height: 300px;
+    flex-direction: column;
+    row-gap: 5%;
+    position: relative;
+    top: 100PX;
+
 }
-.subtitle
-{
-  width: 100%;
-  height: 50px;
+
+.h1InContainer {
+    width: 550px;
 }
+
+.subtitle {
+    width: 100%;
+    height: 50px;
+}
+
 .main {
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .counter {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 2px solid rgb(96, 231, 255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: verdana;
-  float: left;
-  margin: 30px;
-  text-shadow: 1px 1px black;
-  box-shadow: 0px 0px 72px -9px rgba(26, 53, 255, 0.75);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(96, 231, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: verdana;
+    float: left;
+    margin: 30px;
+    text-shadow: 1px 1px black;
+    box-shadow: 0px 0px 72px -9px rgba(26, 53, 255, 0.75);
+}
+
+.test-img {
+    height: 600px;
+    position: relative;
+    top: 100px;
+    /* background-image: url(https://portotheme.com/html/porto_ecommerce/landing/img/intro1.jpg); */
+    width: 400px;
+}
+
+.image-1 {
+    z-index: 3;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.imageBackground {
+    background-image: url(https://portotheme.com/html/porto_ecommerce/landing/img/intro1.jpg);
+    height: 400px;
+    width: 1000px;
+}
+
+.image-bg {
+    position: relative;
+}
+
+.image-3 {
+    /* position: absolute; */
+    margin-right: -250px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.theNewGen {
+    height: 300px;
+    position: relative;
+    top: 100px;
+}
+
+.inner-box {
+    height: 200px;
+    width: 300px;
 }
