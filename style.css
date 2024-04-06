@@ -238,8 +238,21 @@
     position: relative;
     top: 100px;
 }
-
 .inner-box {
     height: 200px;
     width: 300px;
+}
+.TheMostCus
+{
+    height: 250px;
+}
+.mix-images
+{
+    height: 500px;
+    background-image: url(https://portotheme.com/html/porto_ecommerce/landing/img/reason_bg.png);
+}
+.position
+{
+    position: relative;
+    top: -90px;
 }
