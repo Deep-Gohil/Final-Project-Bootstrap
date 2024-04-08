@@ -246,13 +246,15 @@
 {
     height: 250px;
 }
-.mix-images
+.new-section
 {
-    height: 500px;
-    background-image: url(https://portotheme.com/html/porto_ecommerce/landing/img/reason_bg.png);
+    height: 600px;
 }
-.position
+.new-boxes-insed
 {
-    position: relative;
-    top: -90px;
+    height: 400px;
+    width: 300px;
+}
+.new-boxes-insed>img:hover{
+    transform: scale(1.1);
 }
