@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-link:hover
+{
+    text-decoration: underline;
+}
+.container-fluid {
+    max-width: 1400px;
+
+}
+@media (max-width: 1025px) {
+    .btn {
+        padding: 5px 40px 5px 40px;
+    }
+}
+@media (max-width: 250px) {
+    .btn {
+        padding: 5px 30px 5px 30px;
+    }
+}
+.font
+{
+    font-size: 90px;
+}
+.for-btn-hover:hover
+{
+    background-color: blue !important;
+    color: white !important;
+}
